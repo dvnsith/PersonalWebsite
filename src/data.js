@@ -7,11 +7,11 @@ export const projects = [
     image: "./reservation-app.gif"
   },
   {
-    title: "currently deep diving",
-    subtitle: "real soon! :)",
+    title: "An Adventure Video Game",
+    subtitle: "Java & Java Swing",
     description:
-      "",
-    image: ""
+      "An adventure video game with a Graphical User Interface. \n Download the JAR file - https://github.com/dvnsith/force-majuere/releases/tag/v2.2",
+    image: "./force_majeure.gif"
   }
 ];
 
