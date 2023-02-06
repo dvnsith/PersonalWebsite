@@ -3,15 +3,15 @@ export const projects = [
     title: "Apartment Amenity Reservation App",
     subtitle: "Java, Spring Boot, & Thymeleaf",
     description:
-      "Sign in and create new reservations for amenities \n https://github.com/dvnsith/amenity-reservation-system",
+      "Sign in and create new reservations for amenitie at an apartment. See code on GitHub: https://github.com/dvnsith/amenity-reservation-system",
     image: "./reservation-app.gif"
   },
   {
     title: "An Adventure Video Game",
     subtitle: "Java & Java Swing",
     description:
-      "An adventure video game with a Graphical User Interface. \n Download the JAR file - https://github.com/dvnsith/force-majuere/releases/tag/v2.2",
-    image: "./force_majeure.gif"
+      "A video game with a Graphical User Interface. Download the JAR file from GitHub - https://github.com/dvnsith/force-majuere/releases/tag/v2.2",
+    image: "./force-majeure.gif"
   }
 ];
 
