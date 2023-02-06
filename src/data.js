@@ -1,60 +1,58 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Apartment Amenity Reservation App",
+    subtitle: "Java, Spring Boot, & Thymeleaf",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "Sign in and create new reservations for amenities \n https://github.com/dvnsith/amenity-reservation-system",
+    image: "./reservation-app.gif"
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "currently deep diving",
+    subtitle: "real soon! :)",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
-  },
+      "",
+    image: ""
+  }
 ];
 
-export const testimonials = [
+export const recommendations = [
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+      "Devin has single handedly delivered on high complexity projects in Search and DEX, that involved understanding multiple services and working on data pipelines, AWS technologies. His contributions hugely improved team's operational metrics, where he debugged and fixed issues that our team faced. During the project I found him proactive, focused on timelines and deliverables. He takes initiatives to identify and resolve potential blockers. He builds trust with stakeholders and is undoubtedly an asset to team. I vouch for his technical skills in front-end and backend systems development.",
+    image: "https://media.licdn.com/dms/image/C560BAQHTvZwCx4p2Qg/company-logo_200_200/0/1612205615891?e=1682553600&v=beta&t=XiDY2eT_iUTV5bLtatIwL8mDf1As3SmEdI-lxPBOQIo",
+    name: "Quality Assurance Engineer II",
+    company: "Amazon",
   },
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+      "I had the pleasure of working with Devin on the same project for almost half a year at Amazon and I highly recommend Devin for any opportunity he may be seeking. Devin is a hardworking and dedicated individual who consistently exceeded expectations in his role as Software Development Engineer. He possess a strong set of technical skills (SQL, Scala, etc.) and is able to apply them in a practical and effective manner. In addition, Devin is a skilled communicator and team player, always willing to go the extra mile to ensure projects were completed on time and to a high standard. I have no doubt that Devin will be a valuable asset to any team he may join in the future.",
+    image: "https://media.licdn.com/dms/image/C560BAQHTvZwCx4p2Qg/company-logo_200_200/0/1612205615891?e=1682553600&v=beta&t=XiDY2eT_iUTV5bLtatIwL8mDf1As3SmEdI-lxPBOQIo",
+    name: "Applied Scientist II",
+    company: "Amazon",
+  },
+  {
+    quote:
+      "I have been worked with Devin during his time at Amazon. He is one of the best among all the people I have ever worked with. As I remember, Devin was a very productive person, is hardworking, broad-minded and forward thinking individual. I am happy to give more evidence if you're exploring the possibility of hiring Devin for your team.",
+    image: 'https://media.licdn.com/dms/image/C560BAQHTvZwCx4p2Qg/company-logo_200_200/0/1612205615891?e=1682553600&v=beta&t=XiDY2eT_iUTV5bLtatIwL8mDf1As3SmEdI-lxPBOQIo',
+    name: "Software Development Engineer II",
+    company: "Amazon",
   },
 ];
 
-export const skills = [
+export const programmingLanguages = [
+  "Java",
+  "Scala",
+  "Python",
+  "C#",
   "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "SQL"
 ];
+
+export const others = [
+  "Apache Spark",
+  "Selenium",
+  "React",
+  "AWS Technologies",
+  "Git",
+  "Agile"
+]
