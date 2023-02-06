@@ -40,30 +40,33 @@ export default function Contact() {
             src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d172139.13549084685!2d-122.34206449999999!3d47.613028449999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA!3m2!1d47.6062095!2d-122.3320708!5e0!3m2!1sen!2sus!4v1674688678269!5m2!1sen!2sus"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                Located
+            <div className="lg:w-1/2 px-6 lg:mt-0">
+            <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                LINKEDIN
               </h2>
-              <p className="mt-1">
-                Seattle, WA
-              </p>
-            </div>
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+              <a href="https://www.linkedin.com/in/devinsith/"className="text-blue-400 leading-relaxed">
+                linkedin.com/in/devinsith
+              </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
+              <a className="text-white-400 leading-relaxed">
                 devinsith.dev@gmail.com 
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+            </div>
+            <div className="lg:w-1/2 px-6 lg:mt-0">
+            <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                LOCATED
+              </h2>
+              <p className="text-white-400 leading-relaxed">
+                Seattle, WA
+              </p>
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 PHONE
               </h2>
-              <p className="leading-relaxed">971.770.2046</p>
+              <a className="text-white-400 leading-relaxed">
+              971.770.2046
+              </a>
             </div>
           </div>
         </div>
