@@ -9,12 +9,10 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Apps I've Built
+            Apps
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            I'm learning to build more apps with Java and Spring Boot at the moment. Updates coming soon!
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -25,7 +23,7 @@ export default function Projects() {
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
                 <img
-                  alt="gallery"
+                  alt="More apps to come!"
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={project.image}
                 />
