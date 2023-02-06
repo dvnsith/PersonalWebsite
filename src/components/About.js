@@ -11,7 +11,7 @@ export default function About() {
           <br/>
           <p className="mb-8 leading-relaxed">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have over 1.5 years 
-            of experience in the tech industry. I have worked on numerous projects, ranging from designing 
+            of experience in the tech industry. I've worked on numerous projects, ranging from designing 
             large-scale enterprise applications to developing innovative solutions for small businesses. 
             My expertise lies in the ability to quickly identify problems and develop creative solutions 
             that are both cost effective and efficient.
@@ -21,6 +21,7 @@ export default function About() {
             an additional edge when it comes to working under pressure, making sure deadlines are 
             met while still maintaining the highest quality standards possible.
           </p>
+          <br/>
           <div className="flex justify-center">
             <a
               href="#contact"

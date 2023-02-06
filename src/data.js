@@ -3,15 +3,19 @@ export const projects = [
     title: "Apartment Amenity Reservation App",
     subtitle: "Java, Spring Boot, & Thymeleaf",
     description:
-      "Sign in and create new reservations for amenitie at an apartment. See code on GitHub: https://github.com/dvnsith/amenity-reservation-system",
-    image: "./reservation-app.gif"
+      "Sign in and create new reservations for amenities.",
+    image: "./reservation-app.gif",
+    linkMessage: "View code from GitHub",
+    link: "https://github.com/dvnsith/amenity-reservation-system"
   },
   {
     title: "An Adventure Video Game",
     subtitle: "Java & Java Swing",
     description:
-      "A video game with a Graphical User Interface. Download the JAR file from GitHub - https://github.com/dvnsith/force-majuere/releases/tag/v2.2",
-    image: "./force-majeure.gif"
+      "A video game with a Graphical User Interface.",
+    image: "./force_majeure.gif",
+    linkMessage: "Download the JAR file from GitHub",
+    link: "https://github.com/dvnsith/force-majuere/releases/tag/v2.2", 
   }
 ];
 
@@ -50,9 +54,11 @@ export const programmingLanguages = [
 
 export const others = [
   "Apache Spark",
+  "Spring Boot",
   "Selenium",
   "React",
   "AWS Technologies",
   "Git",
-  "Agile"
+  "Agile",
+  "Jira"
 ]
